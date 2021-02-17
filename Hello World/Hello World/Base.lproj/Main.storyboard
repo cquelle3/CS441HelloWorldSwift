@@ -30,11 +30,16 @@
                                     <action selector="clickButtonWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="69a-by-5jZ"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tenor.png" translatesAutoresizingMaskIntoConstraints="NO" id="0os-NC-I6t">
+                                <rect key="frame" x="87" y="349" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="helloImage" destination="0os-NC-I6t" id="2Fp-2o-uAQ"/>
                         <outlet property="helloLabel" destination="WVc-Zf-x6a" id="q3d-BF-dqV"/>
                     </connections>
                 </viewController>
@@ -43,4 +48,7 @@
             <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tenor.png" width="640" height="360"/>
+    </resources>
 </document>

@@ -12,13 +12,17 @@ class ViewController: UIViewController {
 
     @IBOutlet var helloLabel : UILabel!
     
+    @IBOutlet var helloImage : UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        helloImage.isHidden = true;
     }
     
     @IBAction func clickButton(_sender: UIButton){
         helloLabel.text = "Hello World!"
+        helloImage.isHidden = false;
     }
 }
 
