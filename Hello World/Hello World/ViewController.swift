@@ -47,7 +47,7 @@ class ViewController: UIViewController {
             helloImage.isHidden = true;
             helloView.backgroundColor = UIColor.white;
             helloButton.tintColor = UIColor.blue;
-            helloButton.setTitle("Press", for: .normal);
+            helloButton.setTitle("Press again?", for: .normal);
         }
     }
 }
