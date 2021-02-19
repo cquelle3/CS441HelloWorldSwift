@@ -27,6 +27,8 @@ class ViewController: UIViewController {
         helloView.backgroundColor = UIColor.white;
         helloButton.tintColor = UIColor.blue;
         helloButton.setTitle("Press", for: .normal);
+        
+        helloImage.layer.cornerRadius = 20;
     }
     
     @IBAction func clickButton(_sender: UIButton){
