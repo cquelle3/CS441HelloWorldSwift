@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		440848FF25E9811800BCF7FF /* tenor.png in Resources */ = {isa = PBXBuildFile; fileRef = 440848FE25E9811800BCF7FF /* tenor.png */; };
 		4462339725DD67F800ACB638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4462339625DD67F800ACB638 /* AppDelegate.swift */; };
 		4462339925DD67F800ACB638 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4462339825DD67F800ACB638 /* SceneDelegate.swift */; };
 		4462339B25DD67F800ACB638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4462339A25DD67F800ACB638 /* ViewController.swift */; };
@@ -15,7 +16,6 @@
 		446233A325DD67F900ACB638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446233A125DD67F900ACB638 /* LaunchScreen.storyboard */; };
 		446233AE25DD67F900ACB638 /* Hello_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446233AD25DD67F900ACB638 /* Hello_WorldTests.swift */; };
 		446233B925DD67F900ACB638 /* Hello_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446233B825DD67F900ACB638 /* Hello_WorldUITests.swift */; };
-		446233C725DD6E1300ACB638 /* tenor.png in Resources */ = {isa = PBXBuildFile; fileRef = 446233C625DD6E1200ACB638 /* tenor.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		440848FE25E9811800BCF7FF /* tenor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tenor.png; sourceTree = "<group>"; };
 		4462339325DD67F800ACB638 /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4462339625DD67F800ACB638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4462339825DD67F800ACB638 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		446233B425DD67F900ACB638 /* Hello WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		446233B825DD67F900ACB638 /* Hello_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_WorldUITests.swift; sourceTree = "<group>"; };
 		446233BA25DD67F900ACB638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		446233C625DD6E1200ACB638 /* tenor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tenor.png; path = ../../../../Desktop/tenor.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +105,8 @@
 				4462339825DD67F800ACB638 /* SceneDelegate.swift */,
 				4462339A25DD67F800ACB638 /* ViewController.swift */,
 				4462339C25DD67F800ACB638 /* Main.storyboard */,
-				446233C625DD6E1200ACB638 /* tenor.png */,
 				4462339F25DD67F900ACB638 /* Assets.xcassets */,
+				440848FE25E9811800BCF7FF /* tenor.png */,
 				446233A125DD67F900ACB638 /* LaunchScreen.storyboard */,
 				446233A425DD67F900ACB638 /* Info.plist */,
 			);
@@ -235,7 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				446233C725DD6E1300ACB638 /* tenor.png in Resources */,
+				440848FF25E9811800BCF7FF /* tenor.png in Resources */,
 				446233A325DD67F900ACB638 /* LaunchScreen.storyboard in Resources */,
 				446233A025DD67F900ACB638 /* Assets.xcassets in Resources */,
 				4462339E25DD67F800ACB638 /* Main.storyboard in Resources */,
